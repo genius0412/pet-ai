@@ -4,6 +4,45 @@
         <title>Genius0412 - PetAI</title>
         <meta charset='utf-8' />
         <link rel="stylesheet" type="text/css" href="./style/index.css" />
+
+        <style>
+            @keyframes alpha{
+                from {opacity: 0;}
+                to {opacity: 1;}
+            }
+            @keyframes move{
+                from {margin-top: .5em;
+                opacity: 0;}
+                to {margin-top: .2em;
+                opacity: 1;}
+            }
+            .div1 {
+                position: absolute;
+                top: calc(15vw - 40px);
+                margin-left: 80px;
+            }
+            .div1 ul li {
+                list-style: none;
+            }
+            .div1 ul li img {
+                height: 10em;
+                height: 30vw;
+                opacity: 0;
+            }
+            .div1 ul li img {animation:alpha 1.3s 1.5s normal 1 ease forwards;}
+            .div1 ul li {
+                text-align: center;
+                float: left;
+                font-size: 3.6vw;
+            }
+            .div1 ul li div {
+                opacity: 0;
+                padding-top: 3.2em;
+                margin-left: 1px;
+                text-align: center;
+            }
+            .div1 ul li div{animation:move 1.3s 1.5s normal 1 ease forwards;}
+        </style>
     </head>
     <body>
         <header>
