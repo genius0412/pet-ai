@@ -1,9 +1,18 @@
-## PET AI
+### PET AI
 
-- [create-react-app] (https://create-react-app.dev)
-> react<br/>
-> react-dom<br/>
-> react-scripts<br/>
+**MEET YOUR PET ONLINE**
 
-- [react-router-dom] (https://reactrouter.com)
-> react-router-dom
+### USED `React` and `Tensorflow.js`
+
+
+
+
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
