@@ -20,7 +20,6 @@ header {
 
     box-shadow: 0px 10px 10px #888888;
 }
-
 #logo {
     float: left;
     
@@ -41,41 +40,26 @@ header {
     margin-left: 22px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-  
-nav ul li {
-    float: left;
-}
-
-nav ul li .nav-link {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li .nav-link:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-/*
 nav {
-    padding-top: 20px;
+    transition: 0.3s;
+    margin-block-start: 11px;
+    float: right;
 }
 
+nav .nav-link {
+    color: gray;
 
+    margin-right: 24px;
+    margin-top: 10px;
+    float: left;
 
-*/
+    list-style: none;
+    transition: 0.3s;
+
+    text-decoration: none;
+    font-size: 27px;
+}
+
 
 footer {
     width: 100%;

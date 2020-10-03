@@ -1,4 +1,5 @@
 import React from "react"
+import styled, { css } from 'styled-components'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,9 +16,32 @@ export default function App() {
       <Header/>
 
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
+          <Main/>
+        </Route>
+        <Route path="/about">
+          <About/>
         </Route>
       </Switch>
     </Router>
+  );
+}
+
+const MainDiv = styled.div`
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+`;
+const Main = () => {
+  return(
+    <MainDiv>
+      <h2>Main</h2>
+    </MainDiv>
+  )
+}
+
+const About = () => {
+  return (
+    <div>About</div>
   );
 }

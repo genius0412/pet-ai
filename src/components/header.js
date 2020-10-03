@@ -20,9 +20,14 @@ function Header() {
             </div>
         </div>
         <nav>
-            <Link to="/" className="nav-link">메인</Link>
-            <Link to="/about" className="nav-link">소개</Link>
-            <Link to="/project" className="nav-link">프로젝트</Link>
+            <Switch>
+                <Route path="/">
+                    <Link to="/" className="nav-link">메인</Link>
+                    <Link to="/about" className="nav-link">소개</Link>
+                    <Link to="/project" className="nav-link">프로젝트</Link>
+                </Route>
+            </Switch>
+            
         </nav>
     </header>
   );
@@ -51,4 +56,13 @@ export default Header;
             </div>
         </header>
     </div>
+
+
+
+    <div id="header-title">
+            <img id="logo" src= {Profile}></img>
+            <div id="title">
+                PetAI<br/>펫 인공지능
+            </div>
+        </div>
     */
