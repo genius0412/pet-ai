@@ -60,20 +60,15 @@ const About = () => {
 }
 
 const ProjectDiv = styled.div`
-  padding-left: 30%;
-  padding-top: 15%;
+  text-align: center;
   font-size: 4rem;
   font-weight: bold;
 `;
 
 const ProjectRun = styled.button`
   display: block;
-  position: absolute;
-  width: 23%;
-  height: 5%;
-  border-radius: 100px;
-  margin-left: 15%;
-  margin-top: 2%;
+  margin: 0 auto;
+  border-radius: 3rem;
   font-size: 2rem;
   color: white;
   background: rgb(132,123,255);
@@ -107,7 +102,7 @@ const Project = () => {
   return (
     <ProjectDiv>
       프로젝트를 실행해보세요 <br/>
-      <ProjectRun>프로젝트 실행&nbsp;&nbsp;&nbsp;&nbsp;{"〉"}</ProjectRun>
+      <ProjectRun>&nbsp;&nbsp;프로젝트 실행&nbsp;&nbsp;&nbsp;{"〉"}&nbsp;</ProjectRun>
     </ProjectDiv>
   )
 }
